@@ -19,7 +19,7 @@
                 {
                     $errors[] = 'Password ve Confirm Password eşleşmedi';
                 }
-                elseif( strlen($firstname) < 5 )
+                elseif( strlen($firstname) < 3 )
                 {
                     $errors[] = 'Lütfen adınızı tam yazın';
                 }

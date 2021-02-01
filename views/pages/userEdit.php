@@ -1,7 +1,7 @@
 <?php
   if( isLogged() == false )
   {
-    header('location:'. BASE_URI. '?page=homepage' );
+    header('location:'. BASE_URI. '/homepage' );
   }
 
   if( isset($_GET['user']) && is_numeric($_GET['user']) )
@@ -11,7 +11,7 @@
   }
   else
   {
-    header('location:'. BASE_URI. '?page=homepage' );
+    header('location:'. BASE_URI. '/homepage' );
     die();
   }
 

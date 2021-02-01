@@ -19,6 +19,8 @@
             case 'user-edit'   :      $page = 'userEdit'; break;
             case 'add-user'    :      $page = 'addUser'; break;
             case 'add-blog'    :      $page = 'addBlog'; break;
+            case 'blog-list'   :      $page = 'blogList'; break;
+            case 'blog-edit'   :      $page = 'blogEdit'; break;
             case 'user-delete' :
                  require_once 'operations/userDelete.php';
                  $page = 'userList';
@@ -44,6 +46,7 @@
                 case 'login'    :       require_once 'operations/login.php';     break;
                 case 'logout'   :       require_once 'operations/logout.php';    break;
                 case 'addBlog'   :      require_once 'operations/addBlog.php';    break;
+                case 'editBlog'  :      require_once 'operations/editBlog.php';    break;
             }
         }
     }

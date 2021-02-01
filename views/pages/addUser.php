@@ -1,7 +1,7 @@
 <?php
 if( isLogged() == false )
 {
-  header('location:'. BASE_URI. '?page=homepage' );
+  header('location:'. BASE_URI. '/homepage' );
 }
 ?>
 
