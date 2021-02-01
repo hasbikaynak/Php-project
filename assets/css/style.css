@@ -1,0 +1,21 @@
+.mt-60{
+    margin-top: 60px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.p-30{
+    padding:30px;
+}
+.p-10{
+  padding:10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.flex{
+    display: flex;
+}
+.flex .social-icon{
+    flex:1;
+}
